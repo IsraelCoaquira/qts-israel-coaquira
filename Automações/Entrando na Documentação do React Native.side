@@ -1,0 +1,95 @@
+{
+  "id": "560ed6cb-beca-496c-8c9d-5bcb4abfc550",
+  "version": "2.0",
+  "name": "Entrar no ChatGPT",
+  "url": "https://reactnative.dev/",
+  "tests": [{
+    "id": "b9abbe50-9301-4bc5-8515-67cf48911e30",
+    "name": "Entrando na Documentação do React Native",
+    "commands": [{
+      "id": "dcfeb95c-dd55-4a9c-b3b0-36d0daa2295c",
+      "comment": "",
+      "command": "open",
+      "target": "https://reactnative.dev/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6390dae-230f-4c02-aa85-4b4c27835d95",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1fec7f7-1a17-49d6-a220-2f8cb90f73b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get started",
+      "targets": [
+        ["linkText=Get started", "linkText"],
+        ["css=.ActionButton:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get started')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/section/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/docs/environment-setup')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdd70569-f84d-4ba4-aa38-ea88c08ce947",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=UI & Interaction",
+      "targets": [
+        ["linkText=UI & Interaction", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'UI & Interaction')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/div/aside/div/div/nav/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'UI & Interaction')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29452777-7309-443d-9c53-05e5dc40e416",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Style",
+      "targets": [
+        ["linkText=Style", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) > .menu__list > .theme-doc-sidebar-item-link:nth-child(1) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Style')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/div/aside/div/div/nav/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/docs/style')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Style')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d75b151-9c6d-4b46-b376-fc6a60ff2024",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Layout with Flexbox",
+      "targets": [
+        ["linkText=Layout with Flexbox", "linkText"],
+        ["css=.theme-doc-sidebar-item-category:nth-child(4) > .menu__list > .theme-doc-sidebar-item-link:nth-child(3) > .menu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Layout with Flexbox')]", "xpath:link"],
+        ["xpath=//div[@id='__docusaurus_skipToContent_fallback']/div/div/aside/div/div/nav/ul/li[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/docs/flexbox')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Layout with Flexbox')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0ac71714-000e-41a0-b2b1-5a821c131163",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://chat.openai.com/c/dfd8f4f5-3ad8-4ee5-9ccc-1136d86ee4e5", "https://reactnative.dev/"],
+  "plugins": []
+}
